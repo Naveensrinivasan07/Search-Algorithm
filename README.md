@@ -20,12 +20,56 @@ To write a program to perform linear search and binary search using python progr
 i)	#Use a linear search method to match the item in a list.
 ```
 
+Program for linear search method to match the item in a list
+Developed by: your name: NAVEEN S
+RegisterNumber: 212222240070
+'''
+def linearSearch(array,n,k):
+    for i in range(0,n):
+        if array[i]==k:
+            return i
+    return -1
+array = eval(input())
+k = eval(input())
+n=len(array)
+array.sort()
+print(array)
+result = linearSearch(array,n,k)
+if result==-1:
+    print("Element not found")
+else:
+    print("Element found at index: ",result)
+
 
 
 ```
 ii)	# Find the element in a list using Binary Search(Iterative Method).
 ```
 
+Program to find the element in a list using Binary Search(Iterative Method)..
+Developed by: your name:NAVEEN S
+RegisterNumber: 212222240070
+'''
+def binarySearchIter(array,k,low,high):
+    while low <= high:
+        mid = low + (high - low)//2
+        if array[mid] == k:
+            return mid
+        elif array[mid] < k:
+            low = mid+1
+        else:
+            high = mid-1
+    return -1
+array=eval(input())
+array.sort()
+k = eval(input())
+result = binarySearchIter(array,k,0,len(array)-1)
+if result==-1:
+    print(array)
+    print("Element not found")
+else:
+    print(array)
+    print("Element found at index: ",result)
 
 
 
@@ -34,13 +78,44 @@ ii)	# Find the element in a list using Binary Search(Iterative Method).
 iii)	# Find the element in a list using Binary Search (recursive Method).
 ```
 
-
+def BinarySearch(arr,k,low,high):
+    if low <= high:
+        mid = low + (high - low)//2
+        if array[mid] == k:
+            return mid
+        elif array[mid] > k:
+            return  BinarySearch(arr,k,low,mid-1) 
+        else:
+            return BinarySearch(arr,k,mid+1,high)
+    else:
+        return-1
+array=eval(input())
+array.sort()
+k = eval(input())
+result = BinarySearch(array,k,0,len(array)-1)
+if result==-1:
+    print(array)
+    print("Element not found")
+else:
+    print(array)
+    print("Element found at index: ",result)
 
 
 
 ```
 ## Sample Input and Output
 
+![input1]![Screenshot 2023-06-05 113254](https://github.com/Naveensrinivasan07/Search-Algorithm/assets/119475891/6bf9b7b0-548a-423b-b25a-cb61c4eb07eb)
+
+![output1]![Screenshot 2023-06-05 113402](https://github.com/Naveensrinivasan07/Search-Algorithm/assets/119475891/ae2f5940-0554-487e-9af6-bdf3e07f40f0)
+
+![input2]![Screenshot 2023-06-05 113530](https://github.com/Naveensrinivasan07/Search-Algorithm/assets/119475891/6f3b5ff5-b0f8-4035-9c6b-cabba61efd43)
+
+![output2]![Screenshot 2023-06-05 113608](https://github.com/Naveensrinivasan07/Search-Algorithm/assets/119475891/e9eb404d-2077-4964-9f68-b7574c9a45c7)
+
+![input3]![Screenshot 2023-06-05 113928](https://github.com/Naveensrinivasan07/Search-Algorithm/assets/119475891/f52b43e0-a76e-4f7d-94a6-aa473997291e)
+
+![output3]![Screenshot 2023-06-05 114133](https://github.com/Naveensrinivasan07/Search-Algorithm/assets/119475891/4b5dbc21-adda-45bd-bba5-937c49f9022d)
 
 
 
