@@ -107,9 +107,14 @@ else:
 i) #Use a linear search method to match the item in a list
 ![Screenshot 2023-06-05 113254](https://github.com/Naveensrinivasan07/Search-Algorithm/assets/119475891/6bf9b7b0-548a-423b-b25a-cb61c4eb07eb)
 ![Screenshot 2023-06-05 113402](https://github.com/Naveensrinivasan07/Search-Algorithm/assets/119475891/ae2f5940-0554-487e-9af6-bdf3e07f40f0)
+
+
 ii) # Find the element in a list using Binary Searching
 ![Screenshot 2023-06-05 113530](https://github.com/Naveensrinivasan07/Search-Algorithm/assets/119475891/6f3b5ff5-b0f8-4035-9c6b-cabba61efd43)
 ![Screenshot 2023-06-05 113608](https://github.com/Naveensrinivasan07/Search-Algorithm/assets/119475891/e9eb404d-2077-4964-9f68-b7574c9a45c7)
+
+
+
 iii) # Find the element in a list using Binary Search (recursive Method)
 ![Screenshot 2023-06-05 113928](https://github.com/Naveensrinivasan07/Search-Algorithm/assets/119475891/f52b43e0-a76e-4f7d-94a6-aa473997291e)
 ![Screenshot 2023-06-05 114133](https://github.com/Naveensrinivasan07/Search-Algorithm/assets/119475891/4b5dbc21-adda-45bd-bba5-937c49f9022d)
